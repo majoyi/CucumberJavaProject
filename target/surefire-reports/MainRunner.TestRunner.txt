@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: MainRunner.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 1.258 sec <<< FAILURE!
-Open Browser and(fgfgn TEst Guru99)  Time elapsed: 0.143 sec  <<< ERROR!
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 1.107 sec <<< FAILURE!
+Open Browser and(fgfgn TEst Guru99)  Time elapsed: 0.135 sec  <<< ERROR!
 io.cucumber.junit.UndefinedStepException: The step 'Chrome Browser is open Navigate to Url:"http://demo.guru99.com/"' and 3 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
 
@@ -28,7 +28,7 @@ public void client_details_name_surname_email_and_address(String string, String 
 }
 
 
-Validate google searh is working(Features to test google search)  Time elapsed: 0.02 sec  <<< ERROR!
+Validate google searh is working(Features to test google search)  Time elapsed: 0.009 sec  <<< ERROR!
 io.cucumber.junit.UndefinedStepException: The step 'Browser is open' and 4 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
 

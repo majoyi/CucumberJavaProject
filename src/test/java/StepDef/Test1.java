@@ -12,7 +12,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Test1 {
 
 	  WebDriver driver = null;
-	  
+	  /*
 	 @Test
 	  public void browser_is_open() {
 
@@ -48,4 +48,5 @@ public class Test1 {
 String ExpectedTitle = "Laptop - Google Search";
 Assert.assertEquals(ExpectedTitle, ActualTitle);
            }
+           */
 }

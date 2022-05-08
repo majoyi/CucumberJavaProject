@@ -1,0 +1,33 @@
+-------------------------------------------------------------------------------
+Test set: MainRunner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 5.252 sec <<< FAILURE!
+Open Browser and DO something(fgfgn TEst Guru99)  Time elapsed: 3.976 sec  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 93
+Current browser version is 101.0.4951.54 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'AGPL4CLND5177', ip: '10.201.18.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:108)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:106)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:93)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:48)
+	at StepDefination.SeleniumSteps.NavigateToUrl(StepDef.java:105)
+	at StepDefination.StepDef.chrome_browser_is_open_navigate_to_url(StepDef.java:33)
+	at ?.Chrome Browser is open Navigate to Url:"http://demo.guru99.com/"(file:///C:/Users/ND5177/Desktop/TestFree/demo/src/test/resources/Features/AddCustomerFeature.feature:4)
+
+Validate google searh is working(Features to test google search)  Time elapsed: 0.02 sec  <<< ERROR!
+io.cucumber.java.PendingException: TODO: implement me
+	at StepDefination.StepDef.browser_is_open(StepDef.java:62)
+	at ?.Browser is open(file:///C:/Users/ND5177/Desktop/TestFree/demo/src/test/resources/Features/GoogleSearch.feature:4)
+

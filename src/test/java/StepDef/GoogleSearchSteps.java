@@ -13,7 +13,7 @@ WebDriver driver = null;
 	@Given("Browser is open")
 	public void browser_is_open() {
 		System.out.println("Inside ste Browser is open");
-	System.getProperty("webdriver.chrome.driver","C:/Users/ND5177/eclipse-workspace/CucumberSample1/src/drivers/chromedriver.exe" );		
+	System.getProperty("webdriver.chrome.driver","C:\\Selenium\\chromedriver.exe" );		
 	driver = new ChromeDriver();
 	
 	driver.manage().window().maximize();
